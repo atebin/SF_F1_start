@@ -1,0 +1,83 @@
+.avt-main{
+    /*
+        диаметр круга   = 60px
+        отступы до края = 10px
+    */
+    width: calc((10px + 60px + 10px) * 5 + 10px * 4);
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* SVETOFOR */
+
+    .avt-svetofor{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        margin-bottom: 40px;
+    }
+
+    .avt-svetofor-item{
+        width: calc(10px + 60px +10px);
+        height: calc(10px + 60px * 4 + 10px * 3 + 10px);
+        background-color: black;
+        border-radius: 10px;
+        padding: 10px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    .avt-svetofor-item-lamp{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    } 
+
+    .avt-svetofor-item-lamp--off{
+        background-color: gray;
+    }
+
+    .avt-svetofor-item-lamp--green{
+        background-color: lime;
+    }
+
+    .avt-svetofor-item-lamp--red{
+        background-color: red;
+    }
+
+/* INFO */
+    .avt-info{
+        text-align: center;
+        color: gray;
+        margin-bottom: 40px;
+    }
+
+    .avt-info-rules{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .avt-info-goal-intro{
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .avt-info-goal-main{
+        text-transform: uppercase;
+        font-size: 16px;
+        color: #333;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+/* RESULT */
+    .avt-result{
+        text-align: center;
+        font-size: 140px;
+    }
+
+
