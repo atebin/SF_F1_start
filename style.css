@@ -1,3 +1,7 @@
+body {
+    cursor: pointer;
+}
+
 .avt-main{
     /*
         диаметр круга   = 60px
@@ -75,9 +79,14 @@
     }
 
 /* RESULT */
-    .avt-result{
+    .avt-result-time{
         text-align: center;
         font-size: 140px;
+    }
+
+    .avt-result-status{
+        text-align: center;
+        font-size: 40px;
     }
 
 
